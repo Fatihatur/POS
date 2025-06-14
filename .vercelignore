@@ -1,0 +1,46 @@
+# Folder bawaan Laravel yang tidak dibutuhkan saat deploy ke Vercel
+
+/vendor
+/node_modules
+/tests
+/database
+/resources
+/routes
+/bootstrap
+/storage
+/lang
+
+# File konfigurasi dan env lokal
+
+.env
+.env.\*
+.phpunit.result.cache
+.php_cs.cache
+
+# Config Editor
+
+.vscode/
+.idea/
+
+# Output log / cache lokal
+
+_.log
+_.cache
+_.lock
+_.sqlite
+
+# Dokumentasi dan file root yang tidak dibutuhkan
+
+README.md
+vite.config.js
+postcss.config.js
+tailwind.config.js
+webpack.mix.js
+artisan
+composer.json
+composer.lock
+package.json
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+vercel.sh
